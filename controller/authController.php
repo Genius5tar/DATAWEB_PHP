@@ -2,6 +2,11 @@
 session_start();
 include '../models/conexion.php';
 
+if (!empty($_POST["btn_regist"])) {
+    header('location:/view/registrar_sesion.php');
+    
+}
+
 if(!empty($_POST["btn_login"])){
        if (isset($_POST['user']) == true) {
             $usuario = $_POST['user'];  
