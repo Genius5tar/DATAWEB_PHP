@@ -21,12 +21,12 @@
     include '../controller/authController.php';
     ?>
 
-    <!-- Icon -->
+    <!-- Iconos -->
     <div class="fadeIn first">
       <img src="/img/User_Avatar.png" alt="" id="icon" alt="User Icon">
     </div>
 
-    <!-- Login Form -->
+    <!-- Formulario Login -->
     <form method="POST">
       <input type="text" id="user" class="fadeIn second" name="user" placeholder="User">     
       <input type="password" id="pass" class="fadeIn third" name="pass" placeholder="Password">
@@ -34,7 +34,7 @@
       <input type="submit" class="fadeIn fourth" name="btn_regist" value="Registro">
     </form>
 
-    <!-- Remind Passowrd -->
+    <!-- Recordar Credenciales -->
     <div id="formFooter">
       <a class="underlineHover" href="">***En User and Passowrd use admin***</a>
     </div>
