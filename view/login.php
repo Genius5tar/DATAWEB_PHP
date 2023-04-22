@@ -28,7 +28,8 @@
 
     <!-- Login Form -->
     <form method="POST">
-      <input type="text" id="user" class="fadeIn second" name="user" placeholder="User">   
+      <input type="text" id="user" class="fadeIn second" name="user" placeholder="User">     
+      <input type="password" id="pass" class="fadeIn third" name="pass" placeholder="Password">
       <input type="submit" class="fadeIn fourth" name="btn_login" value="login">
       <input type="submit" class="fadeIn fourth" name="btn_regist" value="Registro">
     </form>
